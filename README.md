@@ -10,4 +10,4 @@ To use this project, you need to have `npm` available on your computer. Therefor
 
 ## Getting started
 
-Getting ready to go is as easy as cloning/downloading this repo and running `npm install`. To build the bundled Javascript file, you can run the command `npm run build`, and if Python is available on your computer, the command `npm run serve` can be used to test your page properly.
+Getting ready to go is as easy as cloning/downloading this repo and running `npm install`. To build the bundled Javascript file, you can run the command `npm run build`, and if Python is available on your computer, the command `npm run serve` can be used to test your page properly. To run the linter, use the command `npm run lint`.

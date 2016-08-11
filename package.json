@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:build": "webpack --progress --colors --watch",
-    "serve": "python -m SimpleHTTPServer"
+    "serve": "python -m SimpleHTTPServer",
+    "lint": "eslint . --fix"
   },
   "author": "Daniel Oliveira",
   "license": "ISC",

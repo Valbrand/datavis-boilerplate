@@ -46,6 +46,8 @@
 
 	'use strict';
 
+	__webpack_require__(6);
+
 	__webpack_require__(1);
 
 /***/ },
@@ -395,6 +397,15 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 5 */,
+/* 6 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	alert("This code is in the 'otherModule.js' file!");
 
 /***/ }
 /******/ ]);

@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+
+  header {
+    flex: 0 0 auto;
+    background: #5ac3ff;
+  }
+
+  main {
+    flex: 1 0 auto;
+    background: #22ad35;
+  }
+
+  footer {
+    flex: 0 0 auto;
+    background: #d37bcc;
+  }
+}

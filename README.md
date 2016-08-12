@@ -6,8 +6,8 @@ This project uses [`sass`](http://sass-lang.com), [`webpack`](http://webpack.git
 
 ## Requirements
 
-To use this project, you need to have `npm` available on your computer. Therefore, you must install the latest version of [Node.js](https://nodejs.org). For the `serve` command, you need to have Python installed.
+To use this project, you need to have `npm` available on your computer. Therefore, you must install the latest version of [Node.js](https://nodejs.org).
 
 ## Getting started
 
-Getting ready to go is as easy as cloning/downloading this repo and running `npm install`. To build the bundled Javascript file, you can run the command `npm run build`, and if Python is available on your computer, the command `npm run serve` can be used to test your page properly. To run the linter, use the command `npm run lint`.
+Getting ready to go is as easy as cloning/downloading this repo and running `npm install`. To build the bundled Javascript file, you can run the command `npm run build`, and  the command `npm run serve` can be used to test your page properly. To run the code analysis routine with `eslint`, use the command `npm run lint`.

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev:build": "webpack --progress --colors --watch",
-    "serve": "python -m SimpleHTTPServer",
+    "serve": "http-server -a localhost -p 8000",
     "lint": "eslint . --fix"
   },
   "author": "Daniel Oliveira",
@@ -21,6 +21,7 @@
     "d3": "^4.2.1",
     "eslint": "^3.2.0",
     "eslint-plugin-react": "^5.2.2",
+    "http-server": "^0.9.0",
     "node-sass": "^3.8.0",
     "postcss-loader": "^0.9.1",
     "sass-loader": "^4.0.0",
